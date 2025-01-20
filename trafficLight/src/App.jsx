@@ -1,11 +1,11 @@
-import { Card } from "@/components/ui/card";
+import TrafficLight from "./TrafficLight";
 
-function App() {
+const App = () => {
   return (
-    <Card>
-      <p>Click me</p>
-    </Card>
+    <div className="h-screen w-screen flex items-center justify-center bg-gray-100">
+      <TrafficLight />
+    </div>
   );
-}
+};
 
 export default App;
